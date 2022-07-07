@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    
+}
+.container {
+    display: grid;
+    grid-template: 100px 1fr / 1fr;
+    grid-template-areas: "header" "content";
+    height: 100vh;
+}
+
+.item {
+    border: 0px solid black;
+    
+}
+
+.item1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+}
+
+.centro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    grid-area: header;
+    
+}
+
+.content {
+    grid-area: content;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.formulario{
+    list-style-type: none;
+    padding: 5px 5px;
+
+
+}
+
+.formulario_filaa {
+    display: flex;
+    justify-content: flex-right;
+}
+
+
+.formulario_filaa > label {
+    flex: .18;
+    text-align: left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+   
+}
+
+.formulario_filaa > input {
+    flex: .1;
+    border: none;
+    font-size: 20px;
+}
+
+
+table th{
+    width: 20em;
+    
+}
+
+.tabla{
+    margin: 2px;
+    margin-top: 30px;
+    border-collapse: collapse;
+
+}
+
+.tr, th{
+    border: 2px solid black;
+    font-size: 25px;
+
+
+}
+

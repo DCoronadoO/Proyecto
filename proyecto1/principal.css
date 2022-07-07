@@ -1,0 +1,441 @@
+* {
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template: 100px 1fr/ 1fr;
+    grid-template-areas: "Arri" "Cent";
+    height: 100vh;
+}
+
+.item{
+    padding: 30px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 2px;
+}
+
+.button{
+    background-color: rgb(53, 194, 230);
+    color: white;
+    padding: 12px;
+    width: 100px;
+    text-align: right;
+    margin: 10px;
+}
+
+.item1 {
+    text-align: left;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 1px;
+}
+
+.Arriba {
+    grid-area: Arri;
+    background: rgba(0, 0, 0, 0.301);
+    display: flex;
+    flex-flow: row nowrap;
+    height: 25px;
+    align-items: center;
+    border-bottom: 1px solid rgba(189, 143, 143, 0.76);
+}
+
+.nav{
+    flex: 5 1 auto;
+}
+    .nav a{
+        color: rgba(255, 255, 255, 0.904);
+        font-size: 11px;
+        text-transform: uppercase;
+        padding: 0 10px;
+        letter-spacing: 2px;
+    }
+    .nav a:hover{
+        color: rgba(31, 24, 24, 0.767);
+    }
+
+.Centro{
+    grid-area: Cent;
+    background:url(urbanizacion.gif);
+    height: 400px;
+    width: 500px;
+}
+
+.Centro2{
+    border: 1px solid black;
+    height: 300px;
+    width: 700px;
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    bottom: 95px;
+}
+
+.Uno{
+    font-family: Arial;
+    border: 1px solid black;
+    height: 50px;
+    width: 60px;
+    position: absolute;
+    top: 0px;
+    left: 125px;
+    bottom: 289px;
+    background-color: rgb(243, 243, 59);
+    font-size: x-large;
+    color: blue;
+    text-align: center;
+}
+.dos{
+    font-family: Arial;
+    border: 1px solid black;
+    height: 50px;
+    width: 60px;
+    position: absolute;
+    top: 0px;
+    left: 186px;
+    bottom: 289px;
+    background-color:GreenYellow;
+    font-size: x-large;
+    color: blue;
+    text-align: center;
+    font-style:inherit;
+}
+.Tres{
+    font-family: Arial;
+    border: 1px solid black;
+    height: 50px;
+    width: 60px;
+    position: absolute;
+    top: 0px;
+    left: 247px;
+    bottom: 289px;
+    background-color: rgb(243, 243, 59);
+    font-size: x-large;
+    color: blue;
+    text-align: center;
+}
+
+.cuatro{
+    font-family: Arial;
+    border: 1px solid black;
+    height: 50px;
+    width: 60px;
+    position: absolute;
+    top: 0px;
+    left: 308px;
+    bottom: 289px;
+    background-color:GreenYellow;
+    font-size: x-large;
+    color: blue;
+    text-align: center;
+}
+
+.Cinco{
+    font-family: Arial;
+    border: 1px solid black;
+    height: 50px;
+    width: 60px;
+    position: absolute;
+    top: 0px;
+    left: 369px;
+    bottom: 289px;
+    background-color:GreenYellow;
+    font-size: x-large;
+    color: blue;
+    text-align: center;
+}
+
+.Seis{
+    font-family: Arial;
+    border: 1px solid black;
+    height: 50px;
+    width: 60px;
+    position: absolute;
+    top: 0px;
+    left: 430px;
+    bottom: 289px;
+    background-color:GreenYellow;
+    font-size: x-large;
+    color: blue;
+    text-align: center; 
+}
+
+.Siete{
+    font-family: Arial;
+    border: 1px solid black;
+    height: 50px;
+    width: 60px;
+    position: absolute;
+    top: 50px;
+    left: 639px;
+    bottom: 239px;
+    background-color:GreenYellow;
+    font-size: x-large;
+    color: blue;
+    text-align: center;
+}
+
+.Ocho{
+    font-family: Arial;
+    border: 1px solid black;
+    height: 50px;
+    width: 60px;
+    position: absolute;
+    top: 101px;
+    left: 639px;
+    bottom: 178px;
+    background-color: rgb(190, 179, 179);
+    font-size: x-large;
+    color: blue;
+    text-align: center;
+}
+
+.Nueve{
+    font-family: Arial;
+    border: 1px solid black;
+    height: 50px;
+    width: 60px;
+    position: absolute;
+    top: 152px;
+    left: 639px;
+    bottom: 117px;
+    background-color:GreenYellow;
+    font-size: x-large;
+    color: blue;
+    text-align: center;
+}
+
+.Diez{
+    font-family: Arial;
+    border: 1px solid black;
+    height: 50px;
+    width: 60px;
+    position: absolute;
+    top: 203px;
+    left: 639px;
+    bottom: 55px;
+    background-color:GreenYellow;
+    font-size: x-large;
+    color: blue;
+    text-align: center;
+}
+.Once{
+    font-family: Arial;
+    border: 1px solid black;
+    height: 50px;
+    width: 60px;
+    position: absolute;
+    top: 249px;
+    left: 200px;
+    bottom: 0px;
+    background-color: rgb(190, 179, 179);
+    font-size: x-large;
+    color: blue;
+    text-align: center;
+}
+
+.Doce{
+    font-family: Arial;
+    border: 1px solid black;
+    height: 50px;
+    width: 60px;
+    position: absolute;
+    top: 249px;
+    left: 261px;
+    bottom: 0px;
+    background-color:GreenYellow;
+    font-size: x-large;
+    color: blue;
+    text-align: center;
+}
+
+.Trece{
+    font-family: Arial;
+    border: 1px solid black;
+    height: 50px;
+    width: 60px;
+    position: absolute;
+    top: 249px;
+    left: 322px;
+    bottom: 0px;
+    background-color: rgb(243, 243, 59);
+    font-size: x-large;
+    color: blue;
+    text-align: center;
+}
+
+.Catorce{
+    font-family: Arial;
+    border: 1px solid black;
+    height: 50px;
+    width: 60px;
+    position: absolute;
+    top: 249px;
+    left: 383px;
+    bottom: 0px;
+    background-color: rgb(243, 243, 59);
+    font-size: x-large;
+    color: blue;
+    text-align: center;
+}
+
+.Quince{
+    font-family: Arial;
+    border: 1px solid black;
+    height: 50px;
+    width: 60px;
+    position: absolute;
+    top: 249px;
+    left: 444px;
+    bottom: 0px;
+    background-color: rgb(197, 39, 39);
+    font-size: x-large;
+    color: blue;
+    text-align: center;
+}
+
+.Dieciseis{
+    font-family: Arial;
+    border: 1px solid black;
+    height: 50px;
+    width: 60px;
+    position: absolute;
+    top: 50px;
+    left: -1px;
+    bottom: 239px;
+    background-color:GreenYellow;
+    font-size: x-large;
+    color: blue;
+    text-align: center;
+}
+
+.Diecisiete{
+    font-family: Arial;
+    border: 1px solid black;
+    height: 50px;
+    width: 60px;
+    position: absolute;
+    top: 101px;
+    left: -1px;
+    bottom: 178px;
+    background-color:GreenYellow;
+    font-size: x-large;
+    color: blue;
+    text-align: center;
+}
+
+.Dieciocho{
+    font-family: Arial;
+    border: 1px solid black;
+    height: 50px;
+    width: 60px;
+    position: absolute;
+    top: 150px;
+    left: -1px;
+    bottom: 117px;
+    background-color: rgb(243, 243, 59);
+    font-size: x-large;
+    color: blue;
+    text-align: center;
+}
+
+.Diecinueve{
+    font-family: Arial;
+    border: 1px solid black;
+    height: 50px;
+    width: 60px;
+    position: absolute;
+    top: 200px;
+    left: -1px;
+    bottom: 117px;
+    background-color:GreenYellow;
+    font-size: x-large;
+    color: blue;
+    text-align: center;
+}
+
+.Veinte{
+    font-family: Arial;
+    border: 1px solid black;
+    height: 90px;
+    width: 80px;
+    position: absolute;
+    top: 100px;
+    left: 639px;
+    bottom: 145px;
+    left: 216px;
+}
+
+.Veintiuno{
+    font-family: Arial;
+    border: 1px solid black;
+    height: 50px;
+    width: 60px;
+    position: absolute;
+    top: 100px;
+    left: 297px;
+    bottom: 175px;
+    background-color: rgb(197, 39, 39);
+    font-size: x-large;
+    color: blue;
+    text-align: center;
+}
+
+.Veintidos{
+    font-family: Arial;
+    border: 1px solid black;
+    height: 50px;
+    width: 60px;
+    position: absolute;
+    top: 100px;
+    left: 358px;
+    bottom: 175px;
+    background-color:GreenYellow;
+    font-size: x-large;
+    color: blue;
+    text-align: center;
+}
+
+.Veintitres{
+    font-family: Arial;
+    border: 1px solid black;
+    height: 50px;
+    width: 60px;
+    position: absolute;
+    top: 100px;
+    left: 419px;
+    bottom: 175px;
+    background-color:GreenYellow;
+    font-size: x-large;
+    color: blue;
+    text-align: center;
+}
+
+.Veinticuatro{
+    font-family: Arial;
+    border: 1px solid black;
+    height: 50px;
+    width: 60px;
+    position: absolute;
+    top: 100px;
+    left: 480px;
+    bottom: 175px;
+    background-color:GreenYellow;
+    font-size: x-large;
+    color: blue;
+    text-align: center;
+}
+
+.Garita{
+    font-family: Arial;
+    font-size: x-large;
+    border: 1px solid black;
+    height: 30px;
+    width: 65px;
+    position: absolute;
+    top: 1fr; left: 80px;
+    bottom: -10px;
+    right: 510px;
+    background-color: rgb(32, 73, 32);
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>[U1_PRACTICA_01]: HTML + CSS (v2.0)</title>
+        <link rel="stylesheet" type="text/css" href="estilos_casas.css" />
+        <script type="text/javascript" src="script_Casas.js"></script>
+    </head>
+    <body onload="load()">
+        <section class="container">
+            <div class="item Arriba"></div>
+            <div class="item MedioUno">
+                <button onclick="residente()">Residentes</button>
+                <button onclick="rsinDeudas()">Residentes sin deudas</button>
+                <button onclick="rconDeudas(),rconDeudasA()">Residentes con deudas</button>
+                <button onclick="rsinPropiedad()">Residentes sin propiedad</button>
+                <button onclick="Casas()">Datos de las casas</button>
+                <button onclick="Ocultar()">Ocultar Residentes</button>
+            </div>
+            <div class="item MedioDos">
+                <a id="data"></a>
+                <div class="Garita">Garita</div>
+            </div>
+            <div class="item Abajo"></div>
+        </section>
+    </body>
+</html>

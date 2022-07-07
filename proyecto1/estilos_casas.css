@@ -1,0 +1,437 @@
+* {
+    margin: 0px;
+}
+
+.verde{
+    background-color: greenyellow;
+}
+.red{
+    background-color: red;
+}
+.gray{
+    background-color: gray;
+}
+.yellow{
+    background-color: yellow;
+}
+.transparent{
+    background-color: transparent;
+}
+button{
+    background-color: rgb(245, 153, 16);
+    color: white;
+    padding: 12px;
+    width: 100%;
+    text-align: left;
+    margin: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 2fr 8fr;
+    grid-template-areas:"arri arri" "mediU mediD" "abaj abaj" ;
+    height: 100vh;
+}
+
+.item {
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 2px;
+}
+
+.Arriba{
+    grid-area: arri;
+    background-color: rgb(252, 255, 67);
+    border: 5px solid rgb(245, 153, 16);
+}
+
+.MedioUno{
+    grid-area: mediU;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid rgb(252, 255, 67);
+}
+
+.MedioDos{
+    border: 1px solid black;
+    height: 200px;
+    width: 600px;
+    position: absolute;
+    top: 175px;
+    bottom: 95px;
+    left: 400px;
+}
+    .c1{
+        font-family: Arial;
+        border: 1px solid black;
+        height: 50px;
+        width: 60px;
+        position: absolute;
+        top: -0.5px;
+        left: 150px;
+        bottom: 289px;
+        font-size: x-large;
+        color: blue;
+        text-align: center;
+        font-style:inherit;
+        display: block;
+    }
+    .c2{
+        font-family: Arial;
+        border: 1px solid black;
+        height: 50px;
+        width: 60px;
+        position: absolute;
+        top: -0.5px;
+        left: 211px;
+        bottom: 289px;
+        font-size: x-large;
+        color: blue;
+        text-align: center;
+        font-style:inherit;
+        display: block;
+    }
+    .c3{
+        font-family: Arial;
+        border: 1px solid black;
+        height: 50px;
+        width: 60px;
+        position: absolute;
+        top: -0.5px;
+        left: 272px;
+        bottom: 289px;
+        font-size: x-large;
+        color: blue;
+        text-align: center;
+        display: block;
+    }
+    
+    .c4{
+        font-family: Arial;
+        border: 1px solid black;
+        height: 50px;
+        width: 60px;
+        position: absolute;
+        top: -0.5px;
+        left: 333px;
+        bottom: 289px;
+        font-size: x-large;
+        color: blue;
+        text-align: center;
+        display: block;
+    }
+
+    .c5{
+        font-family: Arial;
+        border: 1px solid black;
+        height: 50px;
+        width: 60px;
+        position: absolute;
+        top: -0.5px;
+        left: 394px;
+        bottom: 289px;
+        font-size: x-large;
+        color: blue;
+        text-align: center;
+        display: block;
+    }
+
+    .c6{
+        font-family: Arial;
+        border: 1px solid black;
+        height: 50px;
+        width: 60px;
+        position: absolute;
+        top: -0.5px;
+        left: 455px;
+        bottom: 289px;
+        font-size: x-large;
+        color: blue;
+        text-align: center;
+        display: block; 
+    }
+
+    .c7{
+        font-family: Arial;
+        border: 1px solid black;
+        height: 50px;
+        width: 60px;
+        position: absolute;
+        top: 50px;
+        left: 639px;
+        bottom: 239px;
+        font-size: x-large;
+        color: blue;
+        text-align: center;
+        display: block;
+    }
+
+    .c8{
+        font-family: Arial;
+        border: 1px solid black;
+        height: 50px;
+        width: 60px;
+        position: absolute;
+        top: 101px;
+        left: 639px;
+        bottom: 178px;
+        font-size: x-large;
+        color: blue;
+        text-align: center;
+        display: block;
+    }
+
+    .c9{
+        font-family: Arial;
+        border: 1px solid black;
+        height: 50px;
+        width: 60px;
+        position: absolute;
+        top: 152px;
+        left: 639px;
+        bottom: 117px;
+        font-size: x-large;
+        color: blue;
+        text-align: center;
+        display: block;
+    }
+
+    .c10{
+        font-family: Arial;
+        border: 1px solid black;
+        height: 50px;
+        width: 60px;
+        position: absolute;
+        top: 203px;
+        left: 639px;
+        bottom: 55px;
+        font-size: x-large;
+        color: blue;
+        text-align: center;
+        display: block;
+    }
+    .c11{
+        font-family: Arial;
+        border: 1px solid black;
+        height: 50px;
+        width: 60px;
+        position: absolute;
+        top: 250px;
+        left: 150px;
+        bottom: 0px;
+        font-size: x-large;
+        color: blue;
+        text-align: center;
+        display: block;
+    }
+
+    .c12{
+        font-family: Arial;
+        border: 1px solid black;
+        height: 50px;
+        width: 60px;
+        position: absolute;
+        top: 250px;
+        left: 211px;
+        bottom: 0px;
+        font-size: x-large;
+        color: blue;
+        text-align: center;
+        display: block;
+    }
+
+    .c13{
+        font-family: Arial;
+        border: 1px solid black;
+        height: 50px;
+        width: 60px;
+        position: absolute;
+        top: 250px;
+        left: 272px;
+        bottom: 0px;
+        font-size: x-large;
+        color: blue;
+        text-align: center;
+        display: block;
+    }
+
+    .c14{
+        font-family: Arial;
+        border: 1px solid black;
+        height: 50px;
+        width: 60px;
+        position: absolute;
+        top: 250px;
+        left: 333px;
+        bottom: 0px;
+        font-size: x-large;
+        color: blue;
+        text-align: center;
+        display: block;
+    }
+
+    .c15{
+        font-family: Arial;
+        border: 1px solid black;
+        height: 50px;
+        width: 60px;
+        position: absolute;
+        top: 250px;
+        left: 394px;
+        bottom: 0px;
+        font-size: x-large;
+        color: blue;
+        text-align: center;
+        display: block;
+    }
+    
+    .c16{
+        font-family: Arial;
+        border: 1px solid black;
+        height: 50px;
+        width: 60px;
+        position: absolute;
+        top: 50px;
+        left: -1px;
+        bottom: 239px;
+        font-size: x-large;
+        color: blue;
+        text-align: center;
+        display: block;
+    }
+
+    .c17{
+        font-family: Arial;
+        border: 1px solid black;
+        height: 50px;
+        width: 60px;
+        position: absolute;
+        top: 101px;
+        left: -1px;
+        bottom: 178px;
+        font-size: x-large;
+        color: blue;
+        text-align: center;
+        display: block;
+    }
+
+    .c18{
+        font-family: Arial;
+        border: 1px solid black;
+        height: 50px;
+        width: 60px;
+        position: absolute;
+        top: 152px;
+        left: -1px;
+        bottom: 117px;
+        font-size: x-large;
+        color: blue;
+        text-align: center;
+        display: block;
+    }
+
+    .c19{
+        font-family: Arial;
+        border: 1px solid black;
+        height: 50px;
+        width: 60px;
+        position: absolute;
+        top: 203px;
+        left: -1px;
+        bottom: 55px;
+        font-size: x-large;
+        color: blue;
+        text-align: center;
+        display: block;
+    }
+
+    .c20{
+        font-family: Arial;
+        border: 1px solid black;
+        height: 90px;
+        width: 80px;
+        position: absolute;
+        top: 110px;
+        left: 200px;
+        bottom: 145px;
+        display: block;
+    }
+
+    .c21{
+        font-family: Arial;
+        border: 1px solid black;
+        height: 50px;
+        width: 60px;
+        position: absolute;
+        top: 110px;
+        left: 281px;
+        bottom: 175px;
+        font-size: x-large;
+        color: blue;
+        text-align: center;
+        display: block;
+    }
+
+    .c22{
+        font-family: Arial;
+        border: 1px solid black;
+        height: 50px;
+        width: 60px;
+        position: absolute;
+        top: 110px;
+        left: 342px;
+        bottom: 175px;
+        font-size: x-large;
+        color: blue;
+        text-align: center;
+        display: block;
+    }
+
+    .c23{
+        font-family: Arial;
+        border: 1px solid black;
+        height: 50px;
+        width: 60px;
+        position: absolute;
+        top: 110px;
+        left: 403px;
+        bottom: 175px;
+        font-size: x-large;
+        color: blue;
+        text-align: center;
+        display: block;
+    }
+    
+    .c24{
+        font-family: Arial;
+        border: 1px solid black;
+        height: 50px;
+        width: 60px;
+        position: absolute;
+        top: 110px;
+        left: 464px;
+        bottom: 175px;
+        font-size: x-large;
+        color: blue;
+        text-align: center;
+        display: block;
+    }
+    
+    .Garita{
+        font-family: Arial;
+        font-size: x-large;
+        border: 1px solid black;
+        height: 30px;
+        width: 65px;
+        position: absolute;
+        top: 1fr; left: 80px;
+        bottom: -10px;
+        right: 510px;
+        background-color: rgb(32, 73, 32);
+    }
+.Abajo{
+    grid-area: abaj;
+    background-color: rgb(252, 255, 67);
+    border: 5px solid rgb(245, 153, 16);
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="assets/estilos.css" />
+        <script type="text/javascript" src="script.js"></script>
+        <title>Datos de Recidente</title>
+    </head>
+    <body onload="home()">
+        <div class="menu-login">
+            <div class="container">
+                <h1>RESIDENTE DE LA URBANIZACION</h1>
+                <div style="display: flex; text-transform: uppercase;"><p><strong>NOMBRE:</strong></p><p id="name"></p></div>
+                <div style="display: flex;"><p><strong>FECHA INICIO:</strong></p><p id="startDate"></p></div>
+                <div class="bd-example">
+                    <table class="table">
+                        <tr>
+                            <th>AÑO</th>
+                            <th>MES</th>
+                            <th>FECHA PAGO</th>
+                            <th>VALOR</th>
+                            <th>ESTADO</th>
+                            <th>EVIDENCIA</th>
+                        </tr>
+                        <tbody id="dataTable">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
